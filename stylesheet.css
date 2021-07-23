@@ -1,0 +1,251 @@
+/* ==== GOOGLE FONTS ==== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/*==================== BASE ====================*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    padding: 30px;
+}
+
+/* ========== HEADER ========== */
+header {
+    background-color: white;
+    height: 80px;
+    top: 0;
+    position: sticky;
+    box-shadow: 0 -1px 4px rgb(0 0 0 / 15%);
+}
+
+.header-left {
+    float: left;
+    font-size: 30px;
+    line-height: 80px;
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+.header-right {
+    float: right;
+    line-height: 80px;
+    font-weight: 500;
+}
+
+.btn-wrapper-header {
+    font-size: 20px;
+}
+
+.btn-header {
+    display: inline-block;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.btn-header:hover {
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+}
+
+.home {
+    color: black;
+}
+
+.about {
+    color: black;
+}
+
+.contact {
+    color: black;
+    margin-right: 15px;
+}
+
+.grid {
+    display: grid;
+}
+
+/* ========== HOME ========== */
+.home_container {
+    background-color: black;
+}
+
+.home_title,
+.home_subtitle {
+    color: white;
+}
+
+.home_left {
+    grid-column: 1/2;
+    margin-top: 115px;
+    margin-left: 80px;
+}
+
+.home_right {
+    grid-column: 2/2;
+}
+
+.home_title {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.home_subtitle {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 47px;
+}
+
+.button_shopping {
+    background-color: white;
+    padding: 20px;
+    color: black;
+    border-radius: 50px;
+    font-weight: 400;
+}
+
+.button_shopping:hover {
+    background-color: grey;
+    color: white;
+    transition: 0.3s;
+}
+
+.img_shoes {
+    width: 450px;
+    border-radius: 50%;
+    margin: 50px;
+}
+
+/* ========== PORTFOLIO ========== */
+/* .portfolio_container {
+    height: 150px;
+} */
+
+.portfolio {
+    display: flex;
+}
+
+.portfolio_content {
+    margin: auto;
+}
+
+.portfolio_title,
+.portfolio_subtitle {
+    text-align: center;
+}
+
+/* ========== ABOUT US ========== */
+.about-section {
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 100px;
+}
+
+.about-text h1 {
+    margin-bottom: 50px;
+}
+
+/* ========== CONTACT US ========== */
+.contact_container {
+    padding: 50px;
+}
+
+.contact_left {
+    grid-column: 1/2;
+    margin-left: 100px;
+}
+
+.contact_title {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.contact_right {
+    grid-column: 2/2;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.contact_text {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+/* ========== FOOTER ========== */
+.f-wrapper {
+    height: 120px;
+    background-color: black;
+}
+
+.f-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.lecons {
+    float: left;
+    color: white;
+    font-size: 24px;
+    margin-top: 35px;
+}
+
+
+.btn {
+    float: right;
+    text-align: center;
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    margin-top: 28px;
+}
+
+.btn:hover {
+    color: grey;
+    transition: 0.3s;
+}
+
+/* ========== SCROLL BAR ========== */
+::-webkit-scrollbar {
+    width: 0.6rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: lightgrey;
+    border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: grey;
+}
+
+/* ========== RESPONSIVE WEB ========== */
